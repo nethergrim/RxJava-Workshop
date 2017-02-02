@@ -9,7 +9,7 @@ import java.util.concurrent.atomic.AtomicInteger;
  * Тарелка :)
  */
 
-@SuppressWarnings("WeakerAccess")
+@SuppressWarnings({"WeakerAccess", "unused"})
 public class Dish {
 
     private static final AtomicInteger autoIncrementGenerator = new AtomicInteger(0);

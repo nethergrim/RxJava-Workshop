@@ -10,7 +10,7 @@ import java.util.List;
  * Сушилка мытой посуды
  */
 
-@SuppressWarnings("WeakerAccess")
+@SuppressWarnings({"WeakerAccess", "unused"})
 public class  DishCollector {
 
     private final List<Dish> plates = new LinkedList<>();
